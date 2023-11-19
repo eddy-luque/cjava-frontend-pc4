@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .btn {
+    @apply relative flex items-center justify-center rounded-md border px-5 py-2 text-sm font-semibold shadow-[0_5px_5px_-5px] outline-none transition duration-300 hover:shadow-none;
+  }
+  .btn-lg {
+    @apply px-7 py-2.5 text-base;
+  }
+  .btn-md {
+    @apply px-3 py-2.5 text-base;
+  }
+  .btn-sm {
+    @apply px-2.5 py-1.5 text-xs;
+  }
+
+  .btn-primary {
+    @apply border-primary bg-primary text-white shadow-primary/60;
+  }
+  .btn-outline-primary {
+    @apply border-primary text-primary shadow-none hover:bg-primary hover:text-white;
+  }
+
+  .btn-secondary {
+    @apply border-secondary bg-secondary text-white shadow-secondary/60;
+  }
+  .btn-outline-secondary {
+    @apply border-secondary text-secondary shadow-none hover:bg-secondary hover:text-white;
+  }
+  .btn-white {
+    @apply border-gray-600 bg-white text-black shadow-gray-600/20;
+  }
+  .btn-success {
+    @apply border-success bg-success text-white shadow-success/60;
+  }
+  .btn-outline-success {
+    @apply border-success text-success shadow-none hover:bg-success hover:text-white;
+  }
+  .btn-green {
+    @apply bg-wurth-green border-wurth-green text-white shadow-wurth-green/60;
+  }
+  .btn-danger {
+    @apply border-danger bg-danger text-white shadow-danger/60;
+  }
+  .btn-outline-danger {
+    @apply border-danger text-danger shadow-none hover:bg-danger hover:text-white;
+  }
+  .btn-warning {
+    @apply border-warning bg-warning text-white shadow-warning/60;
+  }
+  .btn-outline-warning {
+    @apply border-warning text-warning shadow-none hover:bg-warning hover:text-white;
+  }
+  .btn-info {
+    @apply border-info bg-info text-white shadow-info/60;
+  }
+  .btn-outline-info {
+    @apply border-info text-info shadow-none hover:bg-info hover:text-white;
+  }
+  .btn-dark {
+    @apply border-dark bg-dark text-white shadow-dark/60;
+  }
+  .btn-outline-dark {
+    @apply border-dark text-dark shadow-none hover:bg-dark hover:text-white;
+  }
+  .btn-gradient {
+    @apply bg-gradient-to-r from-[#EF1262] to-[#4361EE] text-white hover:from-[#4361EE] hover:to-[#EF1262];
+  }
+
+}
